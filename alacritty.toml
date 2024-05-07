@@ -1,0 +1,22 @@
+[window]
+opacity = 0.9
+padding.x = 5
+padding.y = 5
+decorations = "None"
+resize_increments = true
+dimensions = { columns = 250, lines = 50 }
+position = { x = 200, y = 750 }
+
+
+[font]
+#normal = { family = "CaskaydiaCove Nerd Font Mono", style = "Regular" }
+normal = { family = "MonoLisa Nerd Font Mono", style = "Regular" }
+size = 10
+offset.y = 10
+offset.x = 0
+ 
+[mouse]
+hide_when_typing = true
+
+[shell]
+program = "/opt/homebrew/bin/tmux"
